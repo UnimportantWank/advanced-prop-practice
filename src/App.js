@@ -25,19 +25,19 @@ function App(props) {
   return (
     <div>
       {/* send in a prop called "message", give it the string "Hello World" */}
-      <div>This better say "Hello World": <SuperComponent message='Hello World'/> </div>
+      <div>This better say "Hello World": <SuperComponent message={'Hello World'}/> </div>
       {/* send in a prop called "message", give it the string "Goodbye World" */}
-      <div>This better say "Goodbye World": <SuperComponent message='Goodbye world' /> </div>
+      <div>This better say "Goodbye World": <SuperComponent message={'Goodbye world'} /> </div>
       {/* send in a prop called "message", give it the string "Props are awesome" */}
-      <div>This better say "Props are awesome": <SuperComponent message='Props are awesome' /> </div>
+      <div>This better say "Props are awesome": <SuperComponent message={'Props are awesome'} /> </div>
       {/* send in a prop called "message", give it the string "I totally get this now" */}
-      <div>This better say "I totally get this now": <SuperComponent message='I totally get this now' /> </div>
+      <div>This better say "I totally get this now": <SuperComponent message={'I totally get this now'} /> </div>
 
 
       {/* send in a prop called "magicNumber", give it the number 42*/}
-      <div>This better say 42: <SuperComponent magicNumber='42'/> </div>
+      <div>This better say 42: <SuperComponent magicNumber={'42'}/> </div>
       {/* send in a prop called "magicNumber", give it the number 21*/}
-      <div>This better say 21: <SuperComponent magicNumber='21'/> </div>
+      <div>This better say 21: <SuperComponent magicNumber={'21'}/> </div>
 
 
       {/* send in a prop called "product", give it the variable product*/}
